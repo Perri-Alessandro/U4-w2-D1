@@ -1,11 +1,16 @@
-import Entities.es_1.Interi;
-import Entities.exceptions.IndiceNonValidoException;
+package Entities.es_1;
+
+import Entities.es_1.exceptions.IndiceNonValidoException;
 
 import java.util.Scanner;
 
 public class Main {
+
+//    private static Logger log = LoggerFactory.getLogger(Main.class);
+
     public static void main(String[] args) {
 
+//        log.warning("ciaoo");
         Scanner sc = new Scanner(System.in);
 
 

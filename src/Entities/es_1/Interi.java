@@ -1,6 +1,6 @@
 package Entities.es_1;
 
-import Entities.exceptions.IndiceNonValidoException;
+import Entities.es_1.exceptions.IndiceNonValidoException;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -32,7 +32,7 @@ public class Interi {
                 break; // Esci a zero
             }
             if (indice < 0 || indice >= numeri.length) {
-                throw new IndiceNonValidoException("INDICE NON VALIDO.");
+                throw new IndiceNonValidoException("INDICE NON VALIDO. ESEGUI NUOVAMENTE IL PROGRAMMA");
             }
             System.out.println("INSERISCI UN NUOVO VALORE (tra 0 e 10):");
             int nuovoValore = sc.nextInt();
