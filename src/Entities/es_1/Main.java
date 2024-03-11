@@ -8,7 +8,7 @@ public class Main {
 
 //    private static Logger log = LoggerFactory.getLogger(Main.class);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
 //        log.warning("ciaoo");
         Scanner sc = new Scanner(System.in);
@@ -25,8 +25,7 @@ public class Main {
         }
         System.out.println("ARRAY AGGIORNATO:");
         System.out.println(primoArray);
-
-
+        
         sc.close();
     }
 
